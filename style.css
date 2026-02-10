@@ -81,3 +81,35 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
+.director-section {
+  background: #f9f9f9;
+}
+
+.director-box {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.director-image img {
+  width: 220px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.director-message h3 {
+  margin-bottom: 5px;
+}
+
+.director-message h4 {
+  margin-top: 0;
+  color: #777;
+  font-weight: normal;
+}
+
+.director-message p {
+  line-height: 1.6;
+}
+
